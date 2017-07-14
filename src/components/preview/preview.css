@@ -1,0 +1,7 @@
+.browser-preview iframe {
+  width: 100%;
+  border: none;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  height: 99vh;
+  vertical-align: top;
+}
