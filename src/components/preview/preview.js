@@ -13,7 +13,7 @@ class Preview extends Component {
 	    <div className="row">
 	      <div className="col-xs-12">
 	      	<div className="browser-preview">
-	      		<iframe title="preview" src="preview/preview-page.html">
+	      		<iframe title="preview" src="preview-page.html">
 
 	      		</iframe>
 	      	</div>
