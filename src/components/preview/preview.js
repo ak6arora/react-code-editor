@@ -29,7 +29,7 @@ class Preview extends Component {
 	}
   }
   componentDidUpdate(prevProps, prevState){
-  	if(prevProps.scripts!=this.props.scripts) {
+  	if(prevProps.scripts!==this.props.scripts) {
   		this.js=true;
   		document.querySelector("iframe").contentWindow.location.reload()
   	}
